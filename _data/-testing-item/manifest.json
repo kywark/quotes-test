@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/quotes-test/-testing-item/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "\"Testing\" item" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "\"Testing\" item" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/quotes-test/-testing-item/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 216.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/quotes-test/-testing-item/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/quotes-test/-testing-item/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/details/postmalonecirclesinstrumentalviainstrumentals.com.ng",
+                    "duration": 216.0
+                },
+                "target": "https://kywark.github.io/quotes-test/-testing-item/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
