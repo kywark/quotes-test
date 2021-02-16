@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/quotes-test/box-link-mp3/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Box Link mp3" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Box Link mp3" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/quotes-test/box-link-mp3/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 17.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/quotes-test/box-link-mp3/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/quotes-test/box-link-mp3/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://utexas.box.com/s/4syz86jonsqakluag6jje7trvza7jifb",
+                    "duration": 17.0
+                },
+                "target": "https://kywark.github.io/quotes-test/box-link-mp3/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
