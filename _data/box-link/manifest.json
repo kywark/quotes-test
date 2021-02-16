@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/quotes-test/box-link/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Box Link" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Box Link" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/quotes-test/box-link/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 17.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/quotes-test/box-link/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/quotes-test/box-link/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://utexas.box.com/shared/static/8p3vsy1i1hbkpprjzobw44aprfl5eqv1.m4a",
+                    "duration": 17.0
+                },
+                "target": "https://kywark.github.io/quotes-test/box-link/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
