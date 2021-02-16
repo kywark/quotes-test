@@ -1,8 +1,0 @@
----
-layout: item
-title: Box Link (mp3)
-manifest_name: box-link-mp3-
-external_manifest_url: 
----
-<!-- Add an essay or interpretive material below this line,
-using HTML or markdown.  Do not modify this file above this line -->
